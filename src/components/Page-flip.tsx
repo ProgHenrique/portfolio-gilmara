@@ -1,5 +1,3 @@
-import React from 'react';
-import ReactDOM from "react-dom";
 import FlipPage from 'react-flip-page';
 import Button from "./Button";
 

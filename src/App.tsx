@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { CSSProperties, useState } from 'react'
 import { ArrowUp, Camera, List, Newspaper, PencilLine, User, X } from '@phosphor-icons/react'
 import Button from "./components/Button"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -155,10 +155,11 @@ function App() {
                 slidesPerView="auto"
                 
                 direction="horizontal"
+
                 style={{
                   "--swiper-pagination-color": "#6917B5",
                   "--swiper-pagination-bottom": "0px",
-                  width: "100%", padding: "1rem 0.75rem", height: "100%",}}
+                  width: "100%", padding: "1rem 0.75rem", height: "100%",} as CSSProperties}
               >
                 <SwiperSlide className="text-center shadow-header rounded-lg flex flex-col gap-2 p-2 w-72 h-auto">  
                   <strong className="text-center text-title-color">Projeto Paiá</strong>

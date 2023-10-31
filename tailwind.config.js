@@ -49,7 +49,7 @@ export default {
         'roboto':"'Roboto', sans-serif"
       },
       boxShadow: {
-        'header': '0px 0px 12px rgba(0,0,0,0.5)',
+        'header': '0px 12px 12px -12px rgba(0,0,0,0.5)',
       },
       keyframes: {
         'cursor': {
